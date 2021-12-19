@@ -11,7 +11,8 @@ class Tile(pygame.sprite.Sprite):
         self.rel_y = rel_y
 
     def update(self, x, y):
-        self.rect.x = self.image.get_height() * self.rel_x + x
+        self.rect.x = self.image.get_width() * self.rel_x + x
+        self.rect.y = self.image.get_height() * self.rel_y + y
         print("check1")
 
 
