@@ -10,7 +10,7 @@ pip install git+https://github.com/JL710/pygame-tiles.git
 pip install --force-reinstall git+https://github.com/JL710/pygame-tiles.git
 ```
 
-## class Tilelayer
+## class pygametiles -> tile -> Tilelayer
 <details>
   <summary>__init__ parameters</summary>
 parameters: 
