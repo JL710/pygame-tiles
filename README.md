@@ -11,7 +11,10 @@ pip install --force-reinstall git+https://github.com/JL710/pygame-tiles.git
 ```
 
 ## class Tilelayer
-parameters: \
+<details>
+  <summary>__init__ parameters</summary>
+parameters: 
+
 `
 images_path: str, tile_width: int, tile_height: int, tile_placing: list
 `
@@ -21,7 +24,7 @@ Path to the directory within all of the tile images.
 
 ### tile_placing
 A list that shows how the tiles are organised. \
-Example: \
+Example:
 ```python
 tile_placing = [
     "0   0   0",
@@ -33,3 +36,27 @@ tile_placing = [
     "000000000"]
 ```
 Empty spots are spaces, tiles begin with 0 --> image numbers.
+
+</details>
+
+<details>
+    <summary>func draw</summary>
+parameters:
+
+`
+display, x, y
+`
+
+</details>
+
+<details>
+    <summary>func spritecollide</summary>
+parameters:
+
+`
+sprite_group, img_id: str
+`
+
+Returns True if sprite in sprite_group collides with tile that owns the img_id.
+
+</details>
