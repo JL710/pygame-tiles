@@ -32,3 +32,4 @@ tile_placing = [
     "0   0   0",
     "000000000"]
 ```
+Empty spots are spaces, tiles begin with 0 --> image numbers.
