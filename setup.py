@@ -6,5 +6,6 @@ setup(
 	version='0.0.1',
 	description='Simple Tools for Python',
 	py_modules=["SimpleTools"],
-	package_dir={'': 'src', 'a1': 'a1', 'a2': 'a2'},
+	package_dir={'': 'src'},
+	packages=setuptools.find_packages(where="src")
 )
