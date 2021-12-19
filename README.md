@@ -2,10 +2,10 @@
 
 ## install
 ```
-pip install git+https://github.com/JL710/SimpleTools.git
+pip install git+https://github.com/JL710/pygame-tiles.git
 ```
 
 ## updating
 ```
-pip install --force-reinstall git+https://github.com/JL710/SimpleTools.git
+pip install --force-reinstall git+https://github.com/JL710/pygame-tiles.git
 ```
