@@ -4,8 +4,9 @@ import setuptools
 setup(
 	name='pygametiles',
 	version='0.0.1',
-	description='Simple Tools for Python',
-	py_modules=["SimpleTools"],
+	description='tilesystem for pygame',
+	py_modules=["pygametiles"],
 	package_dir={'': 'src'},
-	packages=setuptools.find_packages(where="src")
+	packages=setuptools.find_packages(where="src"),
+	python_requires=">=3.6"
 )
