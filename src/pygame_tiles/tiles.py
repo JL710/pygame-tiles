@@ -5,7 +5,7 @@ import os
 class Tile(pygame.sprite.Sprite):
     def __init__(self, img, rel_x, rel_y):
         super().__init__()
-        self.image = img
+        self.image = pygame.image.load(img)
         self.rect = self.image.get_rect()
         self.rel_x = rel_x
         self.rel_y = rel_y
