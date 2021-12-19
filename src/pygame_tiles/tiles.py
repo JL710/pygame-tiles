@@ -21,7 +21,7 @@ class Tilelayer:
         self.tiles = pygame.sprite.Group()
         for file in os.listdir(self.tile_images_path):
             my_tile = Tile(file, 1, 1)
-            self.tiles.add(my_tile)
+            self.tiles.add(self.tile_images_path + "//" + my_tile)
             pass
 
     def draw(self, display, x, y):
